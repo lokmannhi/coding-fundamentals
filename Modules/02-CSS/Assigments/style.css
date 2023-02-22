@@ -1,0 +1,67 @@
+.breadcrumb {
+  background-color: rgb(187, 187, 187);
+  /*
+    - add some padding around it
+    - add background color
+    - remove the bullet points on the list
+  */
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+.breadcrumb li {
+  display: inline-block;
+  padding: 25px;
+
+  /* 
+    Hint: display
+    - Make the list in a line.
+  */
+}
+
+.breadcrumb li a {
+  color: #333;
+  text-decoration: none;
+
+  /*
+    - add text color
+  */
+}
+
+/* add a CSS selector that selects all list elements except for 1st one */
+/* add "/" before each selected list  */
+/* add text color and padding */
+
+.menu {
+  display: inline-block;
+  position: relative;
+  /* Style for menu button */
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: rgb(202, 202, 202);
+  /* Hide submenu */
+}
+
+.menu:hover .submenu {
+  display: block;
+  /* Show submenu on hover */
+}
+
+.submenu-item {
+  width: 100px;
+  height: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.submenu-item:hover {
+  background-color: yellow;
+}

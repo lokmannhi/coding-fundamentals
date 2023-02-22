@@ -1,0 +1,50 @@
+body {
+  background-color: #eee;
+  font-family: Arial, sans-serif;
+}
+
+@media (max-width: 480px) {
+  /* for mobile */
+  body {
+    background-color: red;
+  }
+  .mobile {
+    color: aqua;
+  }
+  .tablet,
+  .desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 482px) and (max-width: 767px) {
+  /* for tablet */
+  body {
+    background-color: green;
+  }
+  .tablet {
+    color: white;
+  }
+  .desktop,
+  .mobile {
+    display: none;
+  }
+}
+
+/* .desktop {
+  background-color: blue;
+  color: #fff;
+} */
+
+@media (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+  .desktop {
+    color: white;
+  }
+  .tablet,
+  .mobile {
+    display: none;
+  }
+}
