@@ -1,0 +1,148 @@
+h1 {
+  background-color: black;
+  color: white;
+  font-size: 50px;
+}
+
+.containerBlog {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(202, 199, 199);
+  padding: 25px;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 30px;
+  color: blue;
+}
+
+.content h4 {
+  font-size: 25px;
+  color: red;
+}
+
+.image {
+  height: 250px;
+}
+
+.image img {
+  height: 100%;
+  border-radius: 25px;
+}
+
+.containerCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  height: 375px;
+  border-radius: 25px;
+  border: 1px dotted rgb(100, 100, 100);
+  margin: 25px;
+  background: linear-gradient(
+    353deg,
+    rgba(255, 114, 114, 1) 4%,
+    rgba(143, 37, 37, 1) 100%
+  );
+}
+
+.cardImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardImage img {
+  padding: 5px;
+  width: 50%;
+  height: 200px;
+  border-radius: 25px;
+}
+
+.title {
+  text-align: center;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 50px;
+  gap: 10px;
+}
+
+.tag p {
+  background-color: rgb(15, 202, 15);
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.containerReview {
+  border: solid 2px black;
+  border-radius: 25px;
+  width: 750px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.review {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+}
+
+.review img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
+
+.contentReview {
+  font-size: 25px;
+}
+
+.contentReview p:nth-child(2) {
+  color: rgb(201, 201, 0);
+}
+
+.footer {
+  background-color: rgb(207, 207, 207);
+}
+
+.footerLinks,
+.footerSocials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  gap: 25px;
+  padding: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.copywrite {
+  text-align: center;
+  padding: 5px;
+}
